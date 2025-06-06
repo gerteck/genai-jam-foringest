@@ -1,7 +1,5 @@
 # Welcome to the Neueda Generative AI JAM Session
 
-![Alt text](./images/genaijam.png)
-
 ## Introduction
 In this JAM session, we will explore the exciting world of Generative AI and its
 applications. In this session, we will be focusing on the use of Gen AI in the world of 
@@ -43,8 +41,6 @@ If you are using a VM, then complete the following steps:
 
 
 ## Project Teams - Playing to win or playing to learn?
-
-![Alt text](images/winning.jpeg)
 
 You will be placed into groups of 3-4 people. This will be done relatively quickly, so please be prepared to work with people you don't know. Points will be awarded for each challenge that you complete. You can decide as a project team whether you want to work to win, or work to learn. You will learn either way, but your approach to the session will be different if you are just trying to win, vs, wanting to just learn together. There is no right or wrong approach, just different approaches. You will need to decide as a team which approach you want to take.
 
