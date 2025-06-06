@@ -18,10 +18,10 @@ const Credits = () => {
         {name: "Julia", role: "developer"}]
 
     const DisplayCredit =  (props: {credit: {name: string, role: string}}) => {
-        const start = performance.now();
-        while(performance.now() -  start  < 100) {
-            //do nothing - create a delay to simulate a long operation
-        }
+        // const start = performance.now();
+        // while(performance.now() -  start  < 100) {
+        //     //do nothing - create a delay to simulate a long operation
+        // }
         return <p>{props.credit.name} - {props.credit.role}</p>;
     }
 

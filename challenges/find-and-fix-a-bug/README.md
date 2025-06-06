@@ -23,3 +23,14 @@ This exercise is worth up to 200 points.
 * 50 points - quality of the fix and appropriateness of the new code
 * 50 points - quality of any additional unit tests and appropriate use of exception handling
 * 50 points - you can explain to the satisfaction of your instructor what the issue was and why the solution is appropriate
+
+
+# Bug Explanation 
+
+Bug is present in the ValidateISBN class. The issue is in the calculation of ISBN digits in both isThisAValidShortISBN and isThisAValidLongISBN methods.
+
+The problem is that when getting digits from the ISBN string using charAt(), it's using the ASCII value of the character rather than its numeric value. For example, the character '0' has an ASCII value of 48, '1' is 49, etc.
+
+The test case that was failing was the 13-digit ISBN validation, since it was adding ASCII values directly without any conversion to numeric values. The 10-digit ISBN test with 'X' might have been passing because the 'X' case was handled separately.
+
+

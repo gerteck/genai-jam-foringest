@@ -20,3 +20,7 @@ Note that the upgrade process is not as simple as changing a few entries in the 
 
 100 points - you can explain to your instructor to their satisfaction what needed to be done in order to update the application
 
+# Upgrade Steps
+
+1. Update pom.xml
+2. 
